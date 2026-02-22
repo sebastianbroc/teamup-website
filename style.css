@@ -1,22 +1,17 @@
 :root {
-  --primary-color: #EE6300;
-  --primary-gradient: linear-gradient(47deg, rgba(255, 161, 0, 1) 0%, rgba(238, 99, 0, 1) 100%);
-  --secondary-color: #FFA100;
+  --primary-color: #723D46;
+  --primary-gradient: linear-gradient(47deg, rgba(56, 163, 165, 1) 0%, rgba(114, 61, 70, 1) 100%);
+  --secondary-color: #38A3A5;
   --text-color: #333;
   --light-bg: #f9f9f9;
   --white: #ffffff;
-  --font-primary: 'winkysans', sans-serif;
-  --font-secondary: 'ptsans', sans-serif;
+  --font-primary: 'Lexend', sans-serif;
+  --font-secondary: 'Lexend', sans-serif;
 }
 
 @font-face {
-  font-family: "winkysans";
-  src: url("./assets/fonts/WinkySans.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "ptsans";
-  src: url("./assets/fonts/PTSans-Regular.ttf") format("truetype");
+  font-family: "Lexend";
+  src: url("./assets/fonts/Lexend.ttf") format("truetype");
 }
 
 * {
@@ -41,6 +36,7 @@ h5,
 h6,
 .btn {
   font-family: var(--font-primary);
+  font-weight: 400;
 }
 
 .container {
@@ -240,6 +236,10 @@ nav {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.benefits-content > div {
+  max-width: 400px;
 }
 
 .benefit-list {
