@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Track homepage hit
+    fetch('https://teamup-api.jobjournal.io/api/track-homepage-hit').catch(() => {});
+
     const burgerMenu = document.querySelector('.burger-menu');
     const navLinks = document.querySelector('.nav-links');
 
